@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 function DigitalClock() {
-    const [time, setTime] = useState(new Date)
+    const [time, setTime] = useState(new Date())
       
       useEffect(() => {
         const intervalId = setInterval(() => {

@@ -8,11 +8,11 @@ import Videography from "./Pages/Videography"
 import Page from "./Page"
 
 function _Pages(props) {
-  const _Page = Pages[props.type]
+  const SinglePage = Pages[props.type]
   return (
     <div className='mt-4' id={props.type.toLowerCase()}>
-      <Page title={_Page.title || props.type}>
-        <_Page {...props} />
+      <Page title={SinglePage.title || props.type}>
+        <SinglePage {...props} />
       </Page>
     </div>
   )
