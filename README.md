@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Lensa RCM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lensa RCM adalah aplikasi berbasis React yang dirancang untuk mempromosikan bisnis pribadi Anda. Aplikasi ini menggunakan React Bootstrap untuk antarmuka pengguna yang responsif dan modern, serta menawarkan fitur carousel halaman penuh dengan animasi fade.
 
-## Available Scripts
+## Fitur
 
-In the project directory, you can run:
+- **Navbar Responsif:** Navbar yang hanya menampilkan tautan 'Home'.
+- **Carousel Halaman Penuh:** Menampilkan gambar atau konten promosi dengan animasi fading.
+- **Desain Modern:** Menggunakan React Bootstrap untuk tampilan yang elegan dan responsif.
+- **Optimalisasi Kode:** Menghapus variabel dan fungsi yang tidak digunakan untuk kinerja yang lebih baik.
 
-### `npm start`
+## Instalasi
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone repositori ini ke mesin lokal Anda:
+    ```bash
+    git clone https://github.com/Nurutomo/lensa-rcm.git
+    ```
+2. Masuk ke direktori proyek:
+    ```bash
+    cd lensa-rcm
+    ```
+3. Instal dependensi dengan npm atau yarn:
+    ```bash
+    npm install
+    # atau
+    yarn install
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Penggunaan
 
-### `npm test`
+1. Jalankan aplikasi dengan perintah:
+    ```bash
+    npm start
+    # atau
+    yarn start
+    ```
+2. Buka browser Anda dan kunjungi `http://localhost:3000` untuk melihat aplikasi.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Struktur Proyek
 
-### `npm run build`
+- `src/`: Direktori utama untuk kode sumber aplikasi.
+  - `components/`: Berisi komponen React yang digunakan dalam aplikasi.
+  - `assets/`: Berisi aset seperti gambar dan file statis lainnya.
+  - `App.js`: Komponen utama aplikasi.
+  - `index.js`: File utama untuk render React DOM.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Kontribusi
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Kami menyambut kontribusi dari komunitas. Jika Anda ingin berkontribusi, silakan ikuti langkah-langkah berikut:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork repositori ini.
+2. Buat branch fitur baru (`git checkout -b fitur-anda`).
+3. Commit perubahan Anda (`git commit -am 'Menambahkan fitur'`).
+4. Push ke branch (`git push origin fitur-anda`).
+5. Buat Pull Request.
 
-### `npm run eject`
+## Lisensi
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Kontak
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Untuk pertanyaan atau dukungan, Anda dapat menghubungi kami melalui email: [email@example.com](mailto:email@example.com).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Terima kasih telah menggunakan Lensa RCM! Kami berharap aplikasi ini membantu Anda dalam mempromosikan bisnis Anda dengan lebih efektif.
