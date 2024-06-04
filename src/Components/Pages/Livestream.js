@@ -14,7 +14,7 @@ function Livestream() {
       })
     }
     getResult()
-    const intervalID = setInterval(getResult, 100000)
+    const intervalID = setInterval(getResult, 60 * 60 * 1000)
     return () => {
       clearInterval(intervalID)
     }
